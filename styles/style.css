@@ -30,8 +30,17 @@ main {
   padding: 0 1.5rem;
 }
 
+.description {
+  margin-bottom: 2.5rem;
+}
+
 .description > h1 {
   color: var(--gray-800);
   font-size: 1.5625rem;
   margin-bottom: 1rem;
+}
+
+.description > p {
+  font-size: 0.8125rem;
+  color: var(--gray-600);
 }
