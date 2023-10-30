@@ -129,9 +129,10 @@ main {
   }
 
   header {
-    backgrond: none;
+    background: none;
     justify-content: flex-start;
-    padding: 0 7rem;
+    margin: 2.5rem 7rem;
+    height: fit-content;
   }
 
   header img {
@@ -139,7 +140,9 @@ main {
   }
 
   main {
-    padding: 0 7rem;
+    margin: 0 7rem;
+    max-width: 24rem;
+    padding: 0;
   }
 
   .bg-desktop {
