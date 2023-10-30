@@ -115,7 +115,19 @@ main {
   font-size: 1rem;
 }
 
+.bg-desktop {
+  display: none;
+}
+
 @media (min-width: 1000px) {
+  body {
+    display: flex;
+  }
+
+  .content {
+    width: 100%
+  }
+
   header {
     backgrond: none;
     justify-content: flex-start;
@@ -128,5 +140,10 @@ main {
 
   main {
     padding: 0 7rem;
+  }
+
+  .bg-desktop {
+    display: block;
+    width: 100%;
   }
 }
